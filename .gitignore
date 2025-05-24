@@ -1,0 +1,168 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Build outputs
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# React/Vite
+float-system-browser/dist/
+float-system-browser/dist-ssr/
+float-system-browser/*.local
+.vite/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+nohup.out
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.iml
+*.ipr
+*.iws
+
+# Testing
+coverage/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+htmlcov/
+.tox/
+.nox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data files (be careful with these)
+*.sqlite
+*.sqlite3
+
+*.db
+chroma_data/
+data/
+
+# Temporary files
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Security - API keys and secrets
+*.key
+*.pem
+.secrets/
+config/secrets/
+
+# Project specific
+chroma_server.log
+web_server.log
+output.txt
+*.pid
+
+# Conversation data (if sensitive)
+# Uncomment if you want to exclude these
+ chat-data/
+ conversations.json
+ chunked_conversations.json
+ openai_chunked_conversations.json
+# claude_tripartite_summary.json
+
+# Local configuration overrides
+*.local.py
+*.local.js
+config.local.yaml
+
+# Backup files
+*.bak
+*.backup
+*_backup/
+
+# Lock files (keep package-lock.json for npm)
+yarn.lock
+pnpm-lock.yaml
+
+# Claude specific
+.claude/
+.claude.json
+
+# Python virtual environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
